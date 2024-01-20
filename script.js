@@ -8,7 +8,7 @@ let snake = [
   { x: 10, y: 10 },
 ];
 
-let food = { x: 5, y: 5 };
+let food = { x: 5, y: 5 }; //
 
 let dx = 1;
 let dy = 0;

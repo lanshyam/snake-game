@@ -10,6 +10,11 @@ let score = 0;
 let highestScore = 0;
 let topPlayers = [];
 
+let snake = [];
+let food = { x: 5, y: 5 };
+let dx = 1;
+let dy = 0;
+
 function startGame() {
   playerName = playerNameInput.value || "Player";
   resetGame();
